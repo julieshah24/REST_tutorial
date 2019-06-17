@@ -1,8 +1,4 @@
-from django.shortcuts import render
-from rest_framework import status, generics
-from django.http import HttpResponse, Http404
-from rest_framework.views import APIView
-from rest_framework.response import Response
+from rest_framework import generics
 from snippets.models import Snippet
 from snippets.serializers import SnippetSerializer
 
